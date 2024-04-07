@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&display=swap');
+
+body{
+  font-family: "Rajdhani", monospace;
+  background: url("./res/Animated\ Shape.svg");
+  color: #efefef
+}
+
+h1{
+  text-align: center;
+  font-weight: 100;
+}
+/* h2 {text-align: center;} */
+
+.wrapper {
+  /* outline: solid 1px red; */
+  background: #1B1A5588;
+  box-shadow: 0 0 1px 0px #eeee;
+  display: grid;
+  grid-template-columns: 20em;
+  grid-gap: 10px ;
+  justify-content: center;
+  justify-self: center;
+
+  width: 25em;
+  padding-bottom: 2em;
+  margin: 0 auto;
+}
+
+#uid, #pid {
+  font-size: 1.1em;
+  font-family: inherit;
+  background:#070F2B;
+  color: inherit;
+  border:0;
+  outline:0;
+  padding: 5px 0 5px 10px;
+}
+
+#bttn{
+  display: inline-block;
+  width: 7em;
+  font-size: 1.1em;
+  font-family: inherit;
+  font-weight: 500;
+  background: #070F2B;
+  color: #efefef;
+  border:0;
+  justify-self: center;
+  padding: 3px 7px;
+  margin: 18px 0 0 0;
+  box-shadow: 0 0 0px 1px #535C91;
+}
+#bttn:hover {
+  box-shadow: 0 0 0px 1px #aaaaaa;
+}
+#bttn:active{
+  box-shadow: 0 0 2px 1px #12cc4dd1;
+}
+
+.fgpass {
+  text-align: right;
+  color: #9290C3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a{ text-decoration: none; }
+
+.social {
+  text-align: center;
+  margin: 1em 0 3em 0;
+  position: relative;
+}
